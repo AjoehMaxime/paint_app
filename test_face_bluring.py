@@ -1,6 +1,8 @@
 import cv2
 import tkinter as tk
 from PIL import Image, ImageTk
+import numpy as np
+
 
 class FaceDetector:
     def __init__(self, root):
